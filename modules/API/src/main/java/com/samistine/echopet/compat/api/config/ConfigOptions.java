@@ -17,8 +17,8 @@
 
 package com.samistine.echopet.compat.api.config;
 
-import com.samistine.dshutils.config.YAMLConfig;
-import com.samistine.dshutils.config.options.Options;
+import com.dsh105.dshutils.config.YAMLConfig;
+import com.dsh105.dshutils.config.options.Options;
 import com.samistine.echopet.compat.api.entity.PetData;
 import com.samistine.echopet.compat.api.entity.PetType;
 import com.samistine.echopet.compat.api.util.menu.SelectorIcon;
