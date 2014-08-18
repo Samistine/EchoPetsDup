@@ -15,12 +15,12 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R3.entity.type;
+package com.samistine.echopet.compat.nms.v1_7_R3.entity.type;
 
-import com.dsh105.echopet.compat.api.entity.*;
-import com.dsh105.echopet.compat.api.entity.type.nms.IEntityWolfPet;
-import com.dsh105.echopet.compat.api.entity.type.pet.IWolfPet;
-import com.dsh105.echopet.compat.nms.v1_7_R3.entity.EntityAgeablePet;
+import com.samistine.echopet.compat.api.entity.*;
+import com.samistine.echopet.compat.api.entity.type.nms.IEntityWolfPet;
+import com.samistine.echopet.compat.api.entity.type.pet.IWolfPet;
+import com.samistine.echopet.compat.nms.v1_7_R3.entity.EntityAgeablePet;
 import net.minecraft.server.v1_7_R3.BlockCloth;
 import net.minecraft.server.v1_7_R3.MathHelper;
 import net.minecraft.server.v1_7_R3.World;

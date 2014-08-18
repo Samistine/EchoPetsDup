@@ -15,14 +15,14 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R4.entity.type;
+package com.samistine.echopet.compat.nms.v1_7_R4.entity.type;
 
-import com.dsh105.dshutils.logger.Logger;
-import com.dsh105.echopet.compat.api.entity.*;
-import com.dsh105.echopet.compat.api.entity.type.nms.IEntityEnderDragonPet;
-import com.dsh105.echopet.compat.api.event.PetRideJumpEvent;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.nms.v1_7_R4.entity.EntityNoClipPet;
+import com.samistine.dshutils.logger.Logger;
+import com.samistine.echopet.compat.api.entity.*;
+import com.samistine.echopet.compat.api.entity.type.nms.IEntityEnderDragonPet;
+import com.samistine.echopet.compat.api.event.PetRideJumpEvent;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.nms.v1_7_R4.entity.EntityNoClipPet;
 import net.minecraft.server.v1_7_R4.*;
 import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_7_R4.entity.CraftPlayer;

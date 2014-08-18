@@ -15,14 +15,14 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.config;
+package com.samistine.echopet.compat.api.config;
 
-import com.dsh105.dshutils.config.YAMLConfig;
-import com.dsh105.dshutils.config.options.Options;
-import com.dsh105.echopet.compat.api.entity.PetData;
-import com.dsh105.echopet.compat.api.entity.PetType;
-import com.dsh105.echopet.compat.api.util.menu.SelectorIcon;
-import com.dsh105.echopet.compat.api.util.menu.SelectorLayout;
+import com.samistine.dshutils.config.YAMLConfig;
+import com.samistine.dshutils.config.options.Options;
+import com.samistine.echopet.compat.api.entity.PetData;
+import com.samistine.echopet.compat.api.entity.PetType;
+import com.samistine.echopet.compat.api.util.menu.SelectorIcon;
+import com.samistine.echopet.compat.api.util.menu.SelectorLayout;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

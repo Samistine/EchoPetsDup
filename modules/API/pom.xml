@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.dsh105</groupId>
+    <groupId>com.samistine</groupId>
     <artifactId>EchoPet-API</artifactId>
     <name>EchoPet API</name>
     <version>API</version>
@@ -12,7 +12,7 @@
     </properties>
 
     <parent>
-        <groupId>com.dsh105</groupId>
+        <groupId>com.samistine</groupId>
         <artifactId>EchoPet-Parent</artifactId>
         <version>parent</version>
         <relativePath>../../</relativePath>
@@ -26,7 +26,7 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>com.dsh105</groupId>
+            <groupId>com.samistine</groupId>
             <artifactId>DSHUtils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

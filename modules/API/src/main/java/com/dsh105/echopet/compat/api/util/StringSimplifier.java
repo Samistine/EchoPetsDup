@@ -15,7 +15,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util;
+package com.samistine.echopet.compat.api.util;
 
 import java.text.Normalizer;
 import java.util.regex.Pattern;

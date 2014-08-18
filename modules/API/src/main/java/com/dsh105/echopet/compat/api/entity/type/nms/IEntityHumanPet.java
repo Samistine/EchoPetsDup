@@ -15,10 +15,10 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.entity.type.nms;
+package com.samistine.echopet.compat.api.entity.type.nms;
 
-import com.dsh105.echopet.compat.api.entity.IEntityPacketPet;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrappedGameProfile;
+import com.samistine.echopet.compat.api.entity.IEntityPacketPet;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrappedGameProfile;
 
 public interface IEntityHumanPet extends IEntityPacketPet {
 

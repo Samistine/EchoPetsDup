@@ -15,15 +15,15 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util.fanciful;
+package com.samistine.echopet.compat.api.util.fanciful;
 
-import com.dsh105.echopet.compat.api.reflection.ReflectionConstants;
-import com.dsh105.echopet.compat.api.reflection.utility.CommonReflection;
-import com.dsh105.echopet.compat.api.util.ReflectionUtil;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketPlayOutChat;
-import com.dsh105.echopet.compat.api.reflection.SafeConstructor;
-import com.dsh105.echopet.compat.api.reflection.SafeField;
-import com.dsh105.echopet.compat.api.reflection.SafeMethod;
+import com.samistine.echopet.compat.api.reflection.ReflectionConstants;
+import com.samistine.echopet.compat.api.reflection.utility.CommonReflection;
+import com.samistine.echopet.compat.api.util.ReflectionUtil;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketPlayOutChat;
+import com.samistine.echopet.compat.api.reflection.SafeConstructor;
+import com.samistine.echopet.compat.api.reflection.SafeField;
+import com.samistine.echopet.compat.api.reflection.SafeMethod;
 import org.bukkit.Achievement;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

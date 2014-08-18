@@ -32,7 +32,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.plugin.hook;
+package com.samistine.echopet.compat.api.plugin.hook;
 
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
 

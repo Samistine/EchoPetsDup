@@ -15,22 +15,22 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R4.entity;
+package com.samistine.echopet.compat.nms.v1_7_R4.entity;
 
-import com.dsh105.dshutils.logger.Logger;
-import com.dsh105.echopet.compat.api.ai.PetGoalSelector;
-import com.dsh105.echopet.compat.api.entity.*;
-import com.dsh105.echopet.compat.api.event.PetAttackEvent;
-import com.dsh105.echopet.compat.api.event.PetRideJumpEvent;
-import com.dsh105.echopet.compat.api.event.PetRideMoveEvent;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.util.MenuUtil;
-import com.dsh105.echopet.compat.api.util.Perm;
-import com.dsh105.echopet.compat.api.util.menu.MenuOption;
-import com.dsh105.echopet.compat.api.util.menu.PetMenu;
-import com.dsh105.echopet.compat.nms.v1_7_R4.entity.ai.PetGoalFloat;
-import com.dsh105.echopet.compat.nms.v1_7_R4.entity.ai.PetGoalFollowOwner;
-import com.dsh105.echopet.compat.nms.v1_7_R4.entity.ai.PetGoalLookAtPlayer;
+import com.samistine.dshutils.logger.Logger;
+import com.samistine.echopet.compat.api.ai.PetGoalSelector;
+import com.samistine.echopet.compat.api.entity.*;
+import com.samistine.echopet.compat.api.event.PetAttackEvent;
+import com.samistine.echopet.compat.api.event.PetRideJumpEvent;
+import com.samistine.echopet.compat.api.event.PetRideMoveEvent;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.util.MenuUtil;
+import com.samistine.echopet.compat.api.util.Perm;
+import com.samistine.echopet.compat.api.util.menu.MenuOption;
+import com.samistine.echopet.compat.api.util.menu.PetMenu;
+import com.samistine.echopet.compat.nms.v1_7_R4.entity.ai.PetGoalFloat;
+import com.samistine.echopet.compat.nms.v1_7_R4.entity.ai.PetGoalFollowOwner;
+import com.samistine.echopet.compat.nms.v1_7_R4.entity.ai.PetGoalLookAtPlayer;
 import net.minecraft.server.v1_7_R4.*;
 import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_7_R4.CraftWorld;

@@ -15,16 +15,16 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R2;
+package com.samistine.echopet.compat.nms.v1_7_R2;
 
-import com.dsh105.dshutils.DSHPlugin;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.event.PetPreSpawnEvent;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.util.ISpawnUtil;
-import com.dsh105.echopet.compat.api.util.ParticleUtil;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
-import com.dsh105.echopet.compat.nms.v1_7_R2.entity.EntityPet;
+import com.samistine.dshutils.DSHPlugin;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.event.PetPreSpawnEvent;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.util.ISpawnUtil;
+import com.samistine.echopet.compat.api.util.ParticleUtil;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
+import com.samistine.echopet.compat.nms.v1_7_R2.entity.EntityPet;
 import net.minecraft.server.v1_7_R2.World;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;

@@ -15,10 +15,10 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util;
+package com.samistine.echopet.compat.api.util;
 
-import com.dsh105.echopet.compat.api.event.EchoPetSendMessageEvent;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.event.EchoPetSendMessageEvent;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;

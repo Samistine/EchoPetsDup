@@ -15,13 +15,13 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R3.entity.ai;
+package com.samistine.echopet.compat.nms.v1_7_R3.entity.ai;
 
-import com.dsh105.echopet.compat.api.ai.PetGoal;
-import com.dsh105.echopet.compat.api.ai.PetGoalType;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.nms.v1_7_R3.NMSEntityUtil;
-import com.dsh105.echopet.compat.nms.v1_7_R3.entity.EntityPet;
+import com.samistine.echopet.compat.api.ai.PetGoal;
+import com.samistine.echopet.compat.api.ai.PetGoalType;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.nms.v1_7_R3.NMSEntityUtil;
+import com.samistine.echopet.compat.nms.v1_7_R3.entity.EntityPet;
 import net.minecraft.server.v1_7_R3.*;
 import net.minecraft.util.org.apache.commons.lang3.StringUtils;
 import org.bukkit.craftbukkit.v1_7_R3.entity.CraftLivingEntity;

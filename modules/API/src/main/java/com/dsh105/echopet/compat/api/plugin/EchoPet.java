@@ -15,10 +15,10 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.plugin;
+package com.samistine.echopet.compat.api.plugin;
 
-import com.dsh105.dshutils.config.YAMLConfig;
-import com.dsh105.echopet.compat.api.config.ConfigOptions;
+import com.samistine.dshutils.config.YAMLConfig;
+import com.samistine.echopet.compat.api.config.ConfigOptions;
 
 public final class EchoPet {
 

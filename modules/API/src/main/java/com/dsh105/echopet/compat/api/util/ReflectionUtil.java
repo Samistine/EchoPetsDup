@@ -15,10 +15,10 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util;
+package com.samistine.echopet.compat.api.util;
 
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.reflection.utility.CommonReflection;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.reflection.utility.CommonReflection;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
 
@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
 
 public class ReflectionUtil {
 
-    public static String COMPAT_NMS_PATH = "com.dsh105.echopet.compat.nms." + getServerVersion();
+    public static String COMPAT_NMS_PATH = "com.samistine.echopet.compat.nms." + getServerVersion();
 
     public static int MC_VERSION_NUMERIC = Integer.valueOf(getServerVersion().replaceAll("[^0-9]", ""));
     public static int BUKKIT_VERSION_NUMERIC = Integer.valueOf(getBukkitVersion().replaceAll("[^0-9]", ""));

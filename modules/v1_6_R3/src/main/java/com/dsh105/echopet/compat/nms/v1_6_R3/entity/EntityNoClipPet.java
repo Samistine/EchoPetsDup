@@ -15,9 +15,9 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_6_R3.entity;
+package com.samistine.echopet.compat.nms.v1_6_R3.entity;
 
-import com.dsh105.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.IPet;
 import net.minecraft.server.v1_6_R3.World;
 
 

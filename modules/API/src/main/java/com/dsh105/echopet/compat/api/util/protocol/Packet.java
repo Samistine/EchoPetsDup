@@ -15,16 +15,16 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util.protocol;
+package com.samistine.echopet.compat.api.util.protocol;
 
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.reflection.ReflectionConstants;
-import com.dsh105.echopet.compat.api.reflection.utility.CommonReflection;
-import com.dsh105.echopet.compat.api.util.MiscUtil;
-import com.dsh105.echopet.compat.api.util.PlayerUtil;
-import com.dsh105.echopet.compat.api.util.ReflectionUtil;
-import com.dsh105.echopet.compat.api.reflection.FieldAccessor;
-import com.dsh105.echopet.compat.api.reflection.SafeField;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.reflection.ReflectionConstants;
+import com.samistine.echopet.compat.api.reflection.utility.CommonReflection;
+import com.samistine.echopet.compat.api.util.MiscUtil;
+import com.samistine.echopet.compat.api.util.PlayerUtil;
+import com.samistine.echopet.compat.api.util.ReflectionUtil;
+import com.samistine.echopet.compat.api.reflection.FieldAccessor;
+import com.samistine.echopet.compat.api.reflection.SafeField;
 import org.bukkit.entity.Player;
 
 import java.lang.reflect.Field;

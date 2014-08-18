@@ -15,7 +15,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util.protocol.wrapper;
+package com.samistine.echopet.compat.api.util.protocol.wrapper;
 
 public class AbstractWrapper {
 

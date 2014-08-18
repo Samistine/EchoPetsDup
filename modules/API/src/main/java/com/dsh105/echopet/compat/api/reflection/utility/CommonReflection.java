@@ -32,10 +32,10 @@
  * along with HoloAPI.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.reflection.utility;
+package com.samistine.echopet.compat.api.reflection.utility;
 
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.reflection.*;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.reflection.*;
 import com.google.common.base.Strings;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;

@@ -15,17 +15,17 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.event;
+package com.samistine.echopet.compat.api.event;
 
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.plugin.uuid.UUIDMigration;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.plugin.uuid.UUIDMigration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 /**
- * Called when a {@link Player} interacts with a {@link com.dsh105.echopet.api.pet.Pet}
+ * Called when a {@link Player} interacts with a {@link com.samistine.echopet.api.pet.Pet}
  */
 
 public class PetInteractEvent extends Event implements Cancellable {
@@ -45,9 +45,9 @@ public class PetInteractEvent extends Event implements Cancellable {
     }
 
     /**
-     * Gets the {@link com.dsh105.echopet.api.pet.Pet} involved in this event
+     * Gets the {@link com.samistine.echopet.api.pet.Pet} involved in this event
      *
-     * @return the {@link com.dsh105.echopet.api.pet.Pet} involved
+     * @return the {@link com.samistine.echopet.api.pet.Pet} involved
      */
     public IPet getPet() {
         return this.pet;
@@ -65,7 +65,7 @@ public class PetInteractEvent extends Event implements Cancellable {
     /**
      * Gets the action executed by the {@link org.bukkit.entity.Player}
      *
-     * @return the {@link com.dsh105.echopet.compat.api.event.PetInteractEvent.Action} of the event
+     * @return the {@link com.samistine.echopet.compat.api.event.PetInteractEvent.Action} of the event
      */
     public Action getAction() {
         return this.action;

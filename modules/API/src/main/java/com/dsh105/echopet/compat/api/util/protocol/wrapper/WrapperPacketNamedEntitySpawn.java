@@ -15,12 +15,12 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util.protocol.wrapper;
+package com.samistine.echopet.compat.api.util.protocol.wrapper;
 
-import com.dsh105.echopet.compat.api.reflection.ReflectionConstants;
-import com.dsh105.echopet.compat.api.util.ReflectionUtil;
-import com.dsh105.echopet.compat.api.util.protocol.Packet;
-import com.dsh105.echopet.compat.api.util.protocol.PacketFactory;
+import com.samistine.echopet.compat.api.reflection.ReflectionConstants;
+import com.samistine.echopet.compat.api.util.ReflectionUtil;
+import com.samistine.echopet.compat.api.util.protocol.Packet;
+import com.samistine.echopet.compat.api.util.protocol.PacketFactory;
 
 public class WrapperPacketNamedEntitySpawn extends Packet {
 

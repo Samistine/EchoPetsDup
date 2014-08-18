@@ -15,14 +15,14 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.event;
+package com.samistine.echopet.compat.api.event;
 
-import com.dsh105.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.IPet;
 import org.bukkit.Location;
 import org.bukkit.event.HandlerList;
 
 /**
- * Called when a {@link com.dsh105.echopet.api.pet.Pet} teleports
+ * Called when a {@link com.samistine.echopet.api.pet.Pet} teleports
  */
 
 public class PetTeleportEvent extends PetMoveEvent {

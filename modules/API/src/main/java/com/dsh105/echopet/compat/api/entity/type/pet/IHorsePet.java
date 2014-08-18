@@ -15,9 +15,9 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.entity.type.pet;
+package com.samistine.echopet.compat.api.entity.type.pet;
 
-import com.dsh105.echopet.compat.api.entity.*;
+import com.samistine.echopet.compat.api.entity.*;
 
 public interface IHorsePet extends IAgeablePet {
 

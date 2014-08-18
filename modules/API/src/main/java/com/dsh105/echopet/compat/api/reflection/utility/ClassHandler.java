@@ -32,7 +32,7 @@
  * along with HoloAPI.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.reflection.utility;
+package com.samistine.echopet.compat.api.reflection.utility;
 
 /**
  * Handles the loading/finding of specific classes. This is mainly to be compatible with third and fourth party mods like MCPC+

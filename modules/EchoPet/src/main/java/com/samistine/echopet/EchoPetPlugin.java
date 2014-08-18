@@ -15,7 +15,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet;
+package com.samistine.echopet;
 
 import com.samistine.dshutils.DSHPlugin;
 import com.samistine.dshutils.Metrics;

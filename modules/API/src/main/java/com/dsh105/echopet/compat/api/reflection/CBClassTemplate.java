@@ -15,10 +15,10 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.reflection;
+package com.samistine.echopet.compat.api.reflection;
 
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.util.ReflectionUtil;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.util.ReflectionUtil;
 
 public class CBClassTemplate extends ClassTemplate<Object> {
 

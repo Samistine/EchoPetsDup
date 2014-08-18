@@ -1,10 +1,10 @@
-package com.dsh105.echopet.compat.api.util;
+package com.samistine.echopet.compat.api.util;
 
-import com.dsh105.dshutils.logger.Logger;
-import com.dsh105.echopet.compat.api.entity.PetData;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.plugin.uuid.UUIDFetcher;
-import com.dsh105.echopet.compat.api.plugin.uuid.UUIDMigration;
+import com.samistine.dshutils.logger.Logger;
+import com.samistine.echopet.compat.api.entity.PetData;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.plugin.uuid.UUIDFetcher;
+import com.samistine.echopet.compat.api.plugin.uuid.UUIDMigration;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -15,14 +15,14 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R3.entity.ai;
+package com.samistine.echopet.compat.nms.v1_7_R3.entity.ai;
 
-import com.dsh105.echopet.compat.api.ai.APetGoalFollowOwner;
-import com.dsh105.echopet.compat.api.ai.PetGoalType;
-import com.dsh105.echopet.compat.api.event.PetMoveEvent;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.nms.v1_7_R3.entity.EntityPet;
-import com.dsh105.echopet.compat.nms.v1_7_R3.entity.type.EntityGhastPet;
+import com.samistine.echopet.compat.api.ai.APetGoalFollowOwner;
+import com.samistine.echopet.compat.api.ai.PetGoalType;
+import com.samistine.echopet.compat.api.event.PetMoveEvent;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.nms.v1_7_R3.entity.EntityPet;
+import com.samistine.echopet.compat.nms.v1_7_R3.entity.type.EntityGhastPet;
 import net.minecraft.server.v1_7_R3.EntityPlayer;
 import net.minecraft.server.v1_7_R3.GenericAttributes;
 import net.minecraft.server.v1_7_R3.Navigation;

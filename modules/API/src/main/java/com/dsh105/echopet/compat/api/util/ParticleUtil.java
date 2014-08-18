@@ -15,10 +15,10 @@
  * along with EchoPet-API.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util;
+package com.samistine.echopet.compat.api.util;
 
-import com.dsh105.dshutils.util.GeometryUtil;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
+import com.samistine.dshutils.util.GeometryUtil;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.util.Vector;

@@ -15,11 +15,11 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.plugin;
+package com.samistine.echopet.compat.api.plugin;
 
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.entity.PetData;
-import com.dsh105.echopet.compat.api.entity.PetType;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.PetData;
+import com.samistine.echopet.compat.api.entity.PetType;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 

@@ -47,10 +47,10 @@
  *     and easy to use since we can get the remapped-classnames fairly easy
  *     ( https://github.com/llbit/ow2-asm/blob/master/src/org/objectweb/asm/commons/Remapper.java#L220 )
  */
-package com.dsh105.echopet.compat.api.reflection.utility;
+package com.samistine.echopet.compat.api.reflection.utility;
 
-import com.dsh105.echopet.compat.api.reflection.ClassTemplate;
-import com.dsh105.echopet.compat.api.reflection.MethodAccessor;
+import com.samistine.echopet.compat.api.reflection.ClassTemplate;
+import com.samistine.echopet.compat.api.reflection.MethodAccessor;
 import org.bukkit.Bukkit;
 
 public class RemappedClassHandler extends ClassHandler {

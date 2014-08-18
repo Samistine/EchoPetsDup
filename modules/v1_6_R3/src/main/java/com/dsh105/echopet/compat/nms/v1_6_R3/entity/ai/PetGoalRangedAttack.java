@@ -15,7 +15,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_6_R3.entity.ai;
+package com.samistine.echopet.compat.nms.v1_6_R3.entity.ai;
 
 public class PetGoalRangedAttack {
 

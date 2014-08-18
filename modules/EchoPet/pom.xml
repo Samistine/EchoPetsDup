@@ -28,7 +28,7 @@
     </properties>
 
     <parent>
-        <groupId>com.dsh105</groupId>
+        <groupId>com.samistine</groupId>
         <artifactId>EchoPet-Parent</artifactId>
         <version>parent</version>
         <relativePath>../../</relativePath>
@@ -43,7 +43,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.dsh105</groupId>
+            <groupId>com.samistine</groupId>
             <artifactId>EchoPet-v1_6_R3</artifactId>
             <version>v1_6_R3</version>
             <exclusions>
@@ -55,7 +55,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.dsh105</groupId>
+            <groupId>com.samistine</groupId>
             <artifactId>EchoPet-v1_7_R1</artifactId>
             <version>v1_7_R1</version>
             <exclusions>
@@ -67,7 +67,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.dsh105</groupId>
+            <groupId>com.samistine</groupId>
             <artifactId>EchoPet-v1_7_R2</artifactId>
             <version>v1_7_R2</version>
             <exclusions>
@@ -79,7 +79,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.dsh105</groupId>
+            <groupId>com.samistine</groupId>
             <artifactId>EchoPet-v1_7_R3</artifactId>
             <version>v1_7_R3</version>
             <exclusions>
@@ -91,7 +91,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.dsh105</groupId>
+            <groupId>com.samistine</groupId>
             <artifactId>EchoPet-API</artifactId>
             <version>API</version>
             <exclusions>
@@ -115,7 +115,7 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.dsh105</groupId>
+            <groupId>com.samistine</groupId>
             <artifactId>DSHUtils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -223,7 +223,7 @@
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <filters>
                                 <filter>
-                                    <artifact>com.dsh105:EchoPet*</artifact>
+                                    <artifact>com.samistine:EchoPet*</artifact>
                                     <includes>
                                         <include>**</include>
                                     </includes>
@@ -231,25 +231,25 @@
                             </filters>
                             <artifactSet>
                                 <includes>
-                                    <artifact>com.dsh105:EchoPet*</artifact>
+                                    <artifact>com.samistine:EchoPet*</artifact>
                                     <include>com.jolbox:bonecp</include>
                                     <include>org.slf4j:slf4j-api</include>
                                     <include>org.slf4j:slf4j-jdk14</include>
-                                    <include>com.dsh105:DSHUtils</include>
+                                    <include>com.samistine:DSHUtils</include>
                                 </includes>
                             </artifactSet>
                             <relocations>
                                 <relocation>
                                     <pattern>com.jolbox</pattern>
-                                    <shadedPattern>com.dsh105.echopet.libraries</shadedPattern>
+                                    <shadedPattern>com.samistine.echopet.libraries</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.slf4j</pattern>
-                                    <shadedPattern>com.dsh105.echopet.libraries.slf4j</shadedPattern>
+                                    <shadedPattern>com.samistine.echopet.libraries.slf4j</shadedPattern>
                                 </relocation>
                                 <relocation>
-                                    <pattern>com.dsh105.dshutils</pattern>
-                                    <shadedPattern>com.dsh105.echopet.libraries.dshutils</shadedPattern>
+                                    <pattern>com.samistine.dshutils</pattern>
+                                    <shadedPattern>com.samistine.echopet.libraries.dshutils</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>

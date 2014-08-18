@@ -15,15 +15,15 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util.menu;
+package com.samistine.echopet.compat.api.util.menu;
 
-import com.dsh105.dshutils.util.EnumUtil;
-import com.dsh105.dshutils.util.StringUtil;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.entity.PetData;
-import com.dsh105.echopet.compat.api.event.PetMenuOpenEvent;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.util.Lang;
+import com.samistine.dshutils.util.EnumUtil;
+import com.samistine.dshutils.util.StringUtil;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.PetData;
+import com.samistine.echopet.compat.api.event.PetMenuOpenEvent;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.util.Lang;
 import org.bukkit.Bukkit;
 import org.bukkit.inventory.Inventory;
 

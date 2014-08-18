@@ -15,9 +15,9 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util.menu;
+package com.samistine.echopet.compat.api.util.menu;
 
-import com.dsh105.echopet.compat.api.util.menu.DataMenu.DataMenuType;
+import com.samistine.echopet.compat.api.util.menu.DataMenu.DataMenuType;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;

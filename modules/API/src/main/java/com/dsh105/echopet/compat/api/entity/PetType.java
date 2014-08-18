@@ -15,12 +15,12 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.entity;
+package com.samistine.echopet.compat.api.entity;
 
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.reflection.utility.CommonReflection;
-import com.dsh105.echopet.compat.api.util.ReflectionUtil;
-import com.dsh105.echopet.compat.api.reflection.SafeConstructor;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.reflection.utility.CommonReflection;
+import com.samistine.echopet.compat.api.util.ReflectionUtil;
+import com.samistine.echopet.compat.api.reflection.SafeConstructor;
 import com.google.common.collect.ImmutableList;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
@@ -91,7 +91,7 @@ public enum PetType {
 
     PetType(String classIdentifier, int registrationId, String defaultName, double maxHealth, double attackDamage, EntityType entityType, PetData... allowedData) {
         this.entityClass = ReflectionUtil.getPetNMSClass(classIdentifier);
-        this.petClass = ReflectionUtil.getClass("com.dsh105.echopet.api.pet.type." + classIdentifier + "Pet");
+        this.petClass = ReflectionUtil.getClass("com.samistine.echopet.api.pet.type." + classIdentifier + "Pet");
         this.id = registrationId;
         this.allowedData = ImmutableList.copyOf(allowedData);
         this.maxHealth = maxHealth;

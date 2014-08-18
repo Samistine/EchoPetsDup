@@ -15,16 +15,16 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R2.entity.type;
+package com.samistine.echopet.compat.nms.v1_7_R2.entity.type;
 
-import com.dsh105.echopet.compat.api.entity.EntityPetType;
-import com.dsh105.echopet.compat.api.entity.EntitySize;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.entity.PetType;
-import com.dsh105.echopet.compat.api.entity.type.nms.IEntityVillagerPet;
-import com.dsh105.echopet.compat.api.util.ParticleUtil;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
-import com.dsh105.echopet.compat.nms.v1_7_R2.entity.EntityAgeablePet;
+import com.samistine.echopet.compat.api.entity.EntityPetType;
+import com.samistine.echopet.compat.api.entity.EntitySize;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.PetType;
+import com.samistine.echopet.compat.api.entity.type.nms.IEntityVillagerPet;
+import com.samistine.echopet.compat.api.util.ParticleUtil;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
+import com.samistine.echopet.compat.nms.v1_7_R2.entity.EntityAgeablePet;
 import net.minecraft.server.v1_7_R2.World;
 
 @EntitySize(width = 0.6F, height = 1.8F)

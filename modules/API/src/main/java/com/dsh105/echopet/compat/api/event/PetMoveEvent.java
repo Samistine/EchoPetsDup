@@ -15,16 +15,16 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.event;
+package com.samistine.echopet.compat.api.event;
 
-import com.dsh105.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.IPet;
 import org.bukkit.Location;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 /**
- * Called when a {@link com.dsh105.echopet.api.pet.Pet} moves
+ * Called when a {@link com.samistine.echopet.api.pet.Pet} moves
  */
 
 public class PetMoveEvent extends Event implements Cancellable {
@@ -43,7 +43,7 @@ public class PetMoveEvent extends Event implements Cancellable {
     }
 
     /**
-     * Gets the {@link org.bukkit.Location} this {@link com.dsh105.echopet.api.pet.Pet} moved to
+     * Gets the {@link org.bukkit.Location} this {@link com.samistine.echopet.api.pet.Pet} moved to
      *
      * @return {@link org.bukkit.Location} moved to
      */
@@ -52,7 +52,7 @@ public class PetMoveEvent extends Event implements Cancellable {
     }
 
     /**
-     * Gets the {@link org.bukkit.Location} this {@link com.dsh105.echopet.api.pet.Pet} moved from
+     * Gets the {@link org.bukkit.Location} this {@link com.samistine.echopet.api.pet.Pet} moved from
      *
      * @return {@link org.bukkit.Location} moved from
      */
@@ -61,18 +61,18 @@ public class PetMoveEvent extends Event implements Cancellable {
     }
 
     /**
-     * Sets the {@link org.bukkit.Location} that this {@link com.dsh105.echopet.api.pet.Pet} will move to
+     * Sets the {@link org.bukkit.Location} that this {@link com.samistine.echopet.api.pet.Pet} will move to
      *
-     * @param to new {@link org.bukkit.Location} this {@link com.dsh105.echopet.api.pet.Pet} will move to
+     * @param to new {@link org.bukkit.Location} this {@link com.samistine.echopet.api.pet.Pet} will move to
      */
     public void setTo(Location to) {
         this.to = to;
     }
 
     /**
-     * Gets the {@link com.dsh105.echopet.api.pet.Pet} involved in this event
+     * Gets the {@link com.samistine.echopet.api.pet.Pet} involved in this event
      *
-     * @return the {@link com.dsh105.echopet.api.pet.Pet} involved
+     * @return the {@link com.samistine.echopet.api.pet.Pet} involved
      */
     public IPet getPet() {
         return this.pet;

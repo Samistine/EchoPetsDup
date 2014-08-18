@@ -15,9 +15,9 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.entity.type.nms;
+package com.samistine.echopet.compat.api.entity.type.nms;
 
-import com.dsh105.echopet.compat.api.entity.IEntityNoClipPet;
+import com.samistine.echopet.compat.api.entity.IEntityNoClipPet;
 
 public interface IEntityEnderDragonPet extends IEntityNoClipPet {
 

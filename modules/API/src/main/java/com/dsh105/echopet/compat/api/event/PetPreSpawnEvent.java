@@ -15,17 +15,17 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.event;
+package com.samistine.echopet.compat.api.event;
 
 
-import com.dsh105.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.IPet;
 import org.bukkit.Location;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 /**
- * Called when a {@link com.dsh105.echopet.api.pet.Pet} spawns
+ * Called when a {@link com.samistine.echopet.api.pet.Pet} spawns
  */
 
 public class PetPreSpawnEvent extends Event implements Cancellable {
@@ -42,16 +42,16 @@ public class PetPreSpawnEvent extends Event implements Cancellable {
     }
 
     /**
-     * Gets the {@link com.dsh105.echopet.api.pet.Pet} involved in this event
+     * Gets the {@link com.samistine.echopet.api.pet.Pet} involved in this event
      *
-     * @return the {@link com.dsh105.echopet.api.pet.Pet} involved
+     * @return the {@link com.samistine.echopet.api.pet.Pet} involved
      */
     public IPet getPet() {
         return this.pet;
     }
 
     /**
-     * Gets the spawn {@link org.bukkit.Location} of the {@link com.dsh105.echopet.api.pet.Pet}
+     * Gets the spawn {@link org.bukkit.Location} of the {@link com.samistine.echopet.api.pet.Pet}
      * <p/>
      * This {@link org.bukkit.Location} is most likely going to be the owner's {@link org.bukkit.Location}
      *
@@ -62,9 +62,9 @@ public class PetPreSpawnEvent extends Event implements Cancellable {
     }
 
     /**
-     * Sets the spawn Location of this {@link com.dsh105.echopet.api.pet.Pet}
+     * Sets the spawn Location of this {@link com.samistine.echopet.api.pet.Pet}
      *
-     * @param spawnLocation new {@link org.bukkit.Location} to spawn the {@link com.dsh105.echopet.api.pet.Pet}
+     * @param spawnLocation new {@link org.bukkit.Location} to spawn the {@link com.samistine.echopet.api.pet.Pet}
      */
     public void setSpawnLocation(Location spawnLocation) {
         this.spawnLocation = spawnLocation;

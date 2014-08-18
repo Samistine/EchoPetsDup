@@ -15,7 +15,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util.fanciful;
+package com.samistine.echopet.compat.api.util.fanciful;
 
 import org.bukkit.ChatColor;
 import org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonWriter;

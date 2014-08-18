@@ -15,11 +15,11 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R4.entity.ai;
+package com.samistine.echopet.compat.nms.v1_7_R4.entity.ai;
 
-import com.dsh105.echopet.compat.api.ai.APetGoalFloat;
-import com.dsh105.echopet.compat.api.ai.PetGoalType;
-import com.dsh105.echopet.compat.nms.v1_7_R4.entity.EntityPet;
+import com.samistine.echopet.compat.api.ai.APetGoalFloat;
+import com.samistine.echopet.compat.api.ai.PetGoalType;
+import com.samistine.echopet.compat.nms.v1_7_R4.entity.EntityPet;
 
 public class PetGoalFloat extends APetGoalFloat {
 

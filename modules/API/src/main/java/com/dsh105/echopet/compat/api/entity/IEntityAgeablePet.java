@@ -32,7 +32,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.entity;
+package com.samistine.echopet.compat.api.entity;
 
 public interface IEntityAgeablePet extends IEntityPet {
 

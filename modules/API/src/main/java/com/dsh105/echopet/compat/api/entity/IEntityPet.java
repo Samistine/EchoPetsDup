@@ -15,9 +15,9 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.entity;
+package com.samistine.echopet.compat.api.entity;
 
-import com.dsh105.echopet.compat.api.ai.IPetGoalSelector;
+import com.samistine.echopet.compat.api.ai.IPetGoalSelector;
 import org.bukkit.entity.Creature;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;

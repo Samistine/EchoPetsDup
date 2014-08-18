@@ -15,10 +15,10 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.util;
+package com.samistine.echopet.compat.api.util;
 
-import com.dsh105.echopet.compat.api.entity.IEntityPet;
-import com.dsh105.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.IEntityPet;
+import com.samistine.echopet.compat.api.entity.IPet;
 import org.bukkit.entity.Player;
 
 public interface ISpawnUtil {

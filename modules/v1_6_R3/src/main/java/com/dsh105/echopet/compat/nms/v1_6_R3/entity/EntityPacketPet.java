@@ -15,14 +15,14 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_6_R3.entity;
+package com.samistine.echopet.compat.nms.v1_6_R3.entity;
 
-import com.dsh105.dshutils.util.GeometryUtil;
-import com.dsh105.echopet.compat.api.entity.IEntityPacketPet;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrappedDataWatcher;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketEntityMetadata;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketNamedEntitySpawn;
+import com.samistine.dshutils.util.GeometryUtil;
+import com.samistine.echopet.compat.api.entity.IEntityPacketPet;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrappedDataWatcher;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketEntityMetadata;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketNamedEntitySpawn;
 import net.minecraft.server.v1_6_R3.World;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

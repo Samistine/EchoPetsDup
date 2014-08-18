@@ -15,13 +15,13 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_7_R2.entity.type;
+package com.samistine.echopet.compat.nms.v1_7_R2.entity.type;
 
-import com.dsh105.echopet.compat.api.entity.*;
-import com.dsh105.echopet.compat.api.entity.type.nms.IEntityHumanPet;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrappedGameProfile;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketNamedEntitySpawn;
-import com.dsh105.echopet.compat.nms.v1_7_R2.entity.EntityPacketPet;
+import com.samistine.echopet.compat.api.entity.*;
+import com.samistine.echopet.compat.api.entity.type.nms.IEntityHumanPet;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrappedGameProfile;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketNamedEntitySpawn;
+import com.samistine.echopet.compat.nms.v1_7_R2.entity.EntityPacketPet;
 import net.minecraft.server.v1_7_R2.World;
 
 @EntitySize(width = 0.6F, height = 1.8F)

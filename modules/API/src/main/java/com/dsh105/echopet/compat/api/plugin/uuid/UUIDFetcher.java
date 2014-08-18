@@ -15,7 +15,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.plugin.uuid;
+package com.samistine.echopet.compat.api.plugin.uuid;
 
 import com.google.common.collect.ImmutableList;
 import org.json.simple.JSONArray;

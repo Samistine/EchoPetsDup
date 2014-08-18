@@ -32,10 +32,10 @@
  * along with HoloAPI.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.api.reflection.utility;
+package com.samistine.echopet.compat.api.reflection.utility;
 
-import com.dsh105.echopet.compat.api.reflection.MethodAccessor;
-import com.dsh105.echopet.compat.api.reflection.SafeMethod;
+import com.samistine.echopet.compat.api.reflection.MethodAccessor;
+import com.samistine.echopet.compat.api.reflection.SafeMethod;
 import com.google.common.base.Preconditions;
 import org.bukkit.entity.Entity;
 

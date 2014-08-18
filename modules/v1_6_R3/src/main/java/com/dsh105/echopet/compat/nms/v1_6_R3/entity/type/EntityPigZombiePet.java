@@ -15,12 +15,12 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.compat.nms.v1_6_R3.entity.type;
+package com.samistine.echopet.compat.nms.v1_6_R3.entity.type;
 
-import com.dsh105.dshutils.DSHPlugin;
-import com.dsh105.echopet.compat.api.entity.*;
-import com.dsh105.echopet.compat.api.entity.type.nms.IEntityPigZombiePet;
-import com.dsh105.echopet.compat.nms.v1_6_R3.entity.EntityPet;
+import com.samistine.dshutils.DSHPlugin;
+import com.samistine.echopet.compat.api.entity.*;
+import com.samistine.echopet.compat.api.entity.type.nms.IEntityPigZombiePet;
+import com.samistine.echopet.compat.nms.v1_6_R3.entity.EntityPet;
 import net.minecraft.server.v1_6_R3.Item;
 import net.minecraft.server.v1_6_R3.ItemStack;
 import net.minecraft.server.v1_6_R3.World;
