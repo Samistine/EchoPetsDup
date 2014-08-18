@@ -15,11 +15,11 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.conversation;
+package com.samistine.echopet.conversation;
 
-import com.dsh105.dshutils.util.StringUtil;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.util.Lang;
+import com.samistine.dshutils.util.StringUtil;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.util.Lang;
 import org.bukkit.conversations.ConversationContext;
 import org.bukkit.conversations.MessagePrompt;
 import org.bukkit.conversations.Prompt;

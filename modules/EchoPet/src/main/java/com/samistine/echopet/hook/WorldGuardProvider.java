@@ -15,12 +15,12 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.hook;
+package com.samistine.echopet.hook;
 
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.plugin.hook.IWorldGuardProvider;
-import com.dsh105.echopet.compat.api.plugin.hook.PluginDependencyProvider;
-import com.dsh105.echopet.listeners.RegionListener;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.plugin.hook.IWorldGuardProvider;
+import com.samistine.echopet.compat.api.plugin.hook.PluginDependencyProvider;
+import com.samistine.echopet.listeners.RegionListener;
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
 import org.bukkit.plugin.Plugin;
 

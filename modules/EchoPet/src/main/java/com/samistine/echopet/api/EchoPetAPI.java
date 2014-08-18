@@ -15,23 +15,23 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.api;
+package com.samistine.echopet.api;
 
-import com.dsh105.dshutils.logger.ConsoleLogger;
-import com.dsh105.dshutils.logger.Logger;
-import com.dsh105.dshutils.util.StringUtil;
-import com.dsh105.echopet.compat.api.ai.*;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.entity.PetData;
-import com.dsh105.echopet.compat.api.entity.PetType;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.util.Lang;
-import com.dsh105.echopet.compat.api.util.MenuUtil;
-import com.dsh105.echopet.compat.api.util.ReflectionUtil;
-import com.dsh105.echopet.compat.api.util.menu.MenuOption;
-import com.dsh105.echopet.compat.api.util.menu.PetMenu;
-import com.dsh105.echopet.compat.api.util.menu.SelectorMenu;
-import com.dsh105.echopet.compat.api.reflection.SafeConstructor;
+import com.samistine.dshutils.logger.ConsoleLogger;
+import com.samistine.dshutils.logger.Logger;
+import com.samistine.dshutils.util.StringUtil;
+import com.samistine.echopet.compat.api.ai.*;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.PetData;
+import com.samistine.echopet.compat.api.entity.PetType;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.util.Lang;
+import com.samistine.echopet.compat.api.util.MenuUtil;
+import com.samistine.echopet.compat.api.util.ReflectionUtil;
+import com.samistine.echopet.compat.api.util.menu.MenuOption;
+import com.samistine.echopet.compat.api.util.menu.PetMenu;
+import com.samistine.echopet.compat.api.util.menu.SelectorMenu;
+import com.samistine.echopet.compat.api.reflection.SafeConstructor;
 import org.bukkit.Location;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;

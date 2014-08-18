@@ -15,17 +15,17 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.api.pet;
+package com.samistine.echopet.api.pet;
 
-import com.dsh105.dshutils.util.StringUtil;
-import com.dsh105.echopet.compat.api.entity.*;
-import com.dsh105.echopet.compat.api.event.PetTeleportEvent;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.plugin.uuid.UUIDMigration;
-import com.dsh105.echopet.compat.api.reflection.ReflectionConstants;
-import com.dsh105.echopet.compat.api.util.*;
-import com.dsh105.echopet.compat.api.reflection.SafeMethod;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
+import com.samistine.dshutils.util.StringUtil;
+import com.samistine.echopet.compat.api.entity.*;
+import com.samistine.echopet.compat.api.event.PetTeleportEvent;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.plugin.uuid.UUIDMigration;
+import com.samistine.echopet.compat.api.reflection.ReflectionConstants;
+import com.samistine.echopet.compat.api.util.*;
+import com.samistine.echopet.compat.api.reflection.SafeMethod;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;

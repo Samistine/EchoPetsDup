@@ -15,11 +15,11 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.api.pet;
+package com.samistine.echopet.api.pet;
 
-import com.dsh105.echopet.compat.api.entity.IEntityPacketPet;
-import com.dsh105.echopet.compat.api.entity.IEntityPet;
-import com.dsh105.echopet.compat.api.entity.IPacketPet;
+import com.samistine.echopet.compat.api.entity.IEntityPacketPet;
+import com.samistine.echopet.compat.api.entity.IEntityPet;
+import com.samistine.echopet.compat.api.entity.IPacketPet;
 import org.bukkit.entity.Player;
 
 import java.util.UUID;

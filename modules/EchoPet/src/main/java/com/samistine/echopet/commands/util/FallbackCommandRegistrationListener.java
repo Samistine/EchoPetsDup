@@ -15,7 +15,7 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.commands.util;
+package com.samistine.echopet.commands.util;
 
 import org.bukkit.command.CommandMap;
 import org.bukkit.event.EventHandler;

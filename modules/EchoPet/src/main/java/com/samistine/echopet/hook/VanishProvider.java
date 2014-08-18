@@ -15,11 +15,11 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.hook;
+package com.samistine.echopet.hook;
 
-import com.dsh105.echopet.compat.api.plugin.hook.IVanishProvider;
-import com.dsh105.echopet.compat.api.plugin.hook.PluginDependencyProvider;
-import com.dsh105.echopet.listeners.VanishListener;
+import com.samistine.echopet.compat.api.plugin.hook.IVanishProvider;
+import com.samistine.echopet.compat.api.plugin.hook.PluginDependencyProvider;
+import com.samistine.echopet.listeners.VanishListener;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.kitteh.vanish.VanishPlugin;

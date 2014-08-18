@@ -15,26 +15,26 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.commands;
+package com.samistine.echopet.commands;
 
-import com.dsh105.dshutils.util.StringUtil;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.entity.PetData;
-import com.dsh105.echopet.compat.api.entity.PetType;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.plugin.PetStorage;
-import com.dsh105.echopet.compat.api.util.*;
-import com.dsh105.echopet.compat.api.util.fanciful.FancyMessage;
-import com.dsh105.echopet.compat.api.util.menu.MenuOption;
-import com.dsh105.echopet.compat.api.util.menu.PetMenu;
-import com.dsh105.echopet.compat.api.util.menu.SelectorLayout;
-import com.dsh105.echopet.compat.api.util.menu.SelectorMenu;
-import com.dsh105.echopet.compat.api.util.pagination.FancyPaginator;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketEntityMetadata;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketNamedEntitySpawn;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketPlayOutChat;
-import com.dsh105.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
-import com.dsh105.echopet.conversation.NameFactory;
+import com.samistine.dshutils.util.StringUtil;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.PetData;
+import com.samistine.echopet.compat.api.entity.PetType;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.plugin.PetStorage;
+import com.samistine.echopet.compat.api.util.*;
+import com.samistine.echopet.compat.api.util.fanciful.FancyMessage;
+import com.samistine.echopet.compat.api.util.menu.MenuOption;
+import com.samistine.echopet.compat.api.util.menu.PetMenu;
+import com.samistine.echopet.compat.api.util.menu.SelectorLayout;
+import com.samistine.echopet.compat.api.util.menu.SelectorMenu;
+import com.samistine.echopet.compat.api.util.pagination.FancyPaginator;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketEntityMetadata;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketNamedEntitySpawn;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketPlayOutChat;
+import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
+import com.samistine.echopet.conversation.NameFactory;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

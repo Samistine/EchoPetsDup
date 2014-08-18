@@ -4,7 +4,7 @@
  * EchoPet is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * (at your option) any later samistine.
  *
  * EchoPet is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -15,17 +15,17 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.api;
+package com.samistine.echopet.api;
 
-import com.dsh105.dshutils.logger.Logger;
-import com.dsh105.echopet.compat.api.entity.IPet;
-import com.dsh105.echopet.compat.api.entity.PetData;
-import com.dsh105.echopet.compat.api.entity.PetType;
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.plugin.ISqlPetManager;
-import com.dsh105.echopet.compat.api.plugin.uuid.UUIDMigration;
-import com.dsh105.echopet.compat.api.util.SQLUtil;
-import com.dsh105.echopet.compat.api.util.TableMigrationUtil;
+import com.samistine.dshutils.logger.Logger;
+import com.samistine.echopet.compat.api.entity.IPet;
+import com.samistine.echopet.compat.api.entity.PetData;
+import com.samistine.echopet.compat.api.entity.PetType;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.plugin.ISqlPetManager;
+import com.samistine.echopet.compat.api.plugin.uuid.UUIDMigration;
+import com.samistine.echopet.compat.api.util.SQLUtil;
+import com.samistine.echopet.compat.api.util.TableMigrationUtil;
 import org.bukkit.entity.Player;
 
 import java.sql.*;

@@ -15,15 +15,15 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.api.pet.type;
+package com.samistine.echopet.api.pet.type;
 
 
-import com.dsh105.echopet.api.pet.Pet;
-import com.dsh105.echopet.compat.api.entity.EntityPetType;
-import com.dsh105.echopet.compat.api.entity.IEntityPet;
-import com.dsh105.echopet.compat.api.entity.PetType;
-import com.dsh105.echopet.compat.api.entity.type.nms.IEntityOcelotPet;
-import com.dsh105.echopet.compat.api.entity.type.pet.IOcelotPet;
+import com.samistine.echopet.api.pet.Pet;
+import com.samistine.echopet.compat.api.entity.EntityPetType;
+import com.samistine.echopet.compat.api.entity.IEntityPet;
+import com.samistine.echopet.compat.api.entity.PetType;
+import com.samistine.echopet.compat.api.entity.type.nms.IEntityOcelotPet;
+import com.samistine.echopet.compat.api.entity.type.pet.IOcelotPet;
 import org.bukkit.entity.Ocelot.Type;
 import org.bukkit.entity.Player;
 

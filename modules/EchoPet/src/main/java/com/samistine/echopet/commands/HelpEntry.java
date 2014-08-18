@@ -15,12 +15,12 @@
  * along with EchoPet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.dsh105.echopet.commands;
+package com.samistine.echopet.commands;
 
-import com.dsh105.echopet.compat.api.plugin.EchoPet;
-import com.dsh105.echopet.compat.api.util.Perm;
-import com.dsh105.echopet.compat.api.util.fanciful.FancyItemUtil;
-import com.dsh105.echopet.compat.api.util.fanciful.FancyMessage;
+import com.samistine.echopet.compat.api.plugin.EchoPet;
+import com.samistine.echopet.compat.api.util.Perm;
+import com.samistine.echopet.compat.api.util.fanciful.FancyItemUtil;
+import com.samistine.echopet.compat.api.util.fanciful.FancyMessage;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
