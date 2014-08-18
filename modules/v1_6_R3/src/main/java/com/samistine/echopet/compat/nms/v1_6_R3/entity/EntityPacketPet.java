@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.nms.v1_6_R3.entity;
 
-import com.dsh105.dshutils.util.GeometryUtil;
+import com.samistine.dshutils.util.GeometryUtil;
 import com.samistine.echopet.compat.api.entity.IEntityPacketPet;
 import com.samistine.echopet.compat.api.entity.IPet;
 import com.samistine.echopet.compat.api.util.protocol.wrapper.WrappedDataWatcher;

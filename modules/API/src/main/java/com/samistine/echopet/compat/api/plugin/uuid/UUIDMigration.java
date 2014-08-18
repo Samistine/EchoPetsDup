@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.api.plugin.uuid;
 
-import com.dsh105.dshutils.config.YAMLConfig;
+import com.samistine.dshutils.config.YAMLConfig;
 import com.samistine.echopet.compat.api.plugin.EchoPet;
 import com.samistine.echopet.compat.api.util.ReflectionUtil;
 import org.bukkit.Bukkit;

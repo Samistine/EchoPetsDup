@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.api.plugin;
 
-import com.dsh105.dshutils.config.YAMLConfig;
+import com.samistine.dshutils.config.YAMLConfig;
 import com.samistine.echopet.compat.api.config.ConfigOptions;
 
 public final class EchoPet {

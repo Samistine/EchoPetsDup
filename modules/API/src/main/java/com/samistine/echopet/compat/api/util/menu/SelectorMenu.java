@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.api.util.menu;
 
-import com.dsh105.dshutils.inventory.InventoryMenu;
+import com.samistine.dshutils.inventory.InventoryMenu;
 import com.samistine.echopet.compat.api.config.ConfigOptions;
 import com.samistine.echopet.compat.api.event.PetMenuOpenEvent;
 import com.samistine.echopet.compat.api.plugin.EchoPet;

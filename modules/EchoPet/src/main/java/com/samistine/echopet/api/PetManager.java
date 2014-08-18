@@ -17,9 +17,9 @@
 
 package com.samistine.echopet.api;
 
-import com.dsh105.dshutils.logger.Logger;
-import com.dsh105.dshutils.util.EnumUtil;
-import com.dsh105.dshutils.util.StringUtil;
+import com.samistine.dshutils.logger.Logger;
+import com.samistine.dshutils.util.EnumUtil;
+import com.samistine.dshutils.util.StringUtil;
 import com.samistine.echopet.compat.api.entity.*;
 import com.samistine.echopet.compat.api.entity.type.pet.*;
 import com.samistine.echopet.compat.api.plugin.EchoPet;

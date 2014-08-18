@@ -17,9 +17,9 @@
 
 package com.samistine.echopet.api;
 
-import com.dsh105.dshutils.logger.ConsoleLogger;
-import com.dsh105.dshutils.logger.Logger;
-import com.dsh105.dshutils.util.StringUtil;
+import com.samistine.dshutils.logger.ConsoleLogger;
+import com.samistine.dshutils.logger.Logger;
+import com.samistine.dshutils.util.StringUtil;
 import com.samistine.echopet.compat.api.ai.*;
 import com.samistine.echopet.compat.api.entity.IPet;
 import com.samistine.echopet.compat.api.entity.PetData;

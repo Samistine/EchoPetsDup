@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.api.util;
 
-import com.dsh105.dshutils.config.YAMLConfig;
+import com.samistine.dshutils.config.YAMLConfig;
 import com.samistine.echopet.compat.api.config.ConfigOptions;
 import com.samistine.echopet.compat.api.entity.IPet;
 import org.bukkit.ChatColor;

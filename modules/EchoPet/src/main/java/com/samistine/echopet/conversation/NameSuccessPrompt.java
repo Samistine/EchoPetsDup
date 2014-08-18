@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.conversation;
 
-import com.dsh105.dshutils.util.StringUtil;
+import com.samistine.dshutils.util.StringUtil;
 import com.samistine.echopet.compat.api.entity.IPet;
 import com.samistine.echopet.compat.api.util.Lang;
 import org.bukkit.conversations.ConversationContext;

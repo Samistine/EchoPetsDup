@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.nms.v1_6_R3.entity.type;
 
-import com.dsh105.dshutils.DSHPlugin;
+import com.samistine.dshutils.DSHPlugin;
 import com.samistine.echopet.compat.api.entity.*;
 import com.samistine.echopet.compat.api.entity.type.nms.IEntityZombiePet;
 import com.samistine.echopet.compat.nms.v1_6_R3.entity.EntityPet;
