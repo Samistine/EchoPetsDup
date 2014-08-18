@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.api.util;
 
-import com.samistine.dshutils.util.GeometryUtil;
+import com.dsh105.dshutils.util.GeometryUtil;
 import com.samistine.echopet.compat.api.util.protocol.wrapper.WrapperPacketWorldParticles;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

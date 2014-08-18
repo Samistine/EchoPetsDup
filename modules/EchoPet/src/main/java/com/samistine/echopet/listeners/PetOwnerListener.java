@@ -17,8 +17,8 @@
 
 package com.samistine.echopet.listeners;
 
-import com.samistine.dshutils.util.GeometryUtil;
-import com.samistine.dshutils.util.StringUtil;
+import com.dsh105.dshutils.util.GeometryUtil;
+import com.dsh105.dshutils.util.StringUtil;
 import com.samistine.echopet.compat.api.config.ConfigOptions;
 import com.samistine.echopet.compat.api.entity.IEntityPacketPet;
 import com.samistine.echopet.compat.api.entity.IEntityPet;

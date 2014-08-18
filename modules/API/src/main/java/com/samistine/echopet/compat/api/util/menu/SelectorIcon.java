@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.api.util.menu;
 
-import com.samistine.dshutils.inventory.MenuIcon;
+import com.dsh105.dshutils.inventory.MenuIcon;
 import com.samistine.echopet.compat.api.entity.PetType;
 import com.samistine.echopet.compat.api.plugin.EchoPet;
 import org.bukkit.ChatColor;

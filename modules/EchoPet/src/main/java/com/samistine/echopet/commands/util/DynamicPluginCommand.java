@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.commands.util;
 
-import com.samistine.dshutils.DSHPlugin;
+import com.dsh105.dshutils.DSHPlugin;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.Validate;
 import org.bukkit.command.*;

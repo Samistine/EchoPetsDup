@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.nms.v1_7_R2;
 
-import com.samistine.dshutils.DSHPlugin;
+import com.dsh105.dshutils.DSHPlugin;
 import com.samistine.echopet.compat.api.entity.IPet;
 import com.samistine.echopet.compat.api.event.PetPreSpawnEvent;
 import com.samistine.echopet.compat.api.plugin.EchoPet;

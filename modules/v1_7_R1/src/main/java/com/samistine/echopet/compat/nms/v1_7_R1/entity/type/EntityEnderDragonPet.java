@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.nms.v1_7_R1.entity.type;
 
-import com.samistine.dshutils.logger.Logger;
+import com.dsh105.dshutils.logger.Logger;
 import com.samistine.echopet.compat.api.entity.*;
 import com.samistine.echopet.compat.api.entity.type.nms.IEntityEnderDragonPet;
 import com.samistine.echopet.compat.api.event.PetRideJumpEvent;

@@ -44,7 +44,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.samistine</groupId>
+            <groupId>com.dsh105</groupId>
             <artifactId>DSHUtils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

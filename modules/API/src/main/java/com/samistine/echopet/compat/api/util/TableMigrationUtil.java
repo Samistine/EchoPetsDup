@@ -1,6 +1,6 @@
 package com.samistine.echopet.compat.api.util;
 
-import com.samistine.dshutils.logger.Logger;
+import com.dsh105.dshutils.logger.Logger;
 import com.samistine.echopet.compat.api.entity.PetData;
 import com.samistine.echopet.compat.api.plugin.EchoPet;
 import com.samistine.echopet.compat.api.plugin.uuid.UUIDFetcher;
