@@ -17,12 +17,12 @@
 
 package com.samistine.echopet;
 
-import com.dsh105.dshutils.DSHPlugin;
-import com.dsh105.dshutils.Metrics;
-import com.dsh105.dshutils.command.VersionIncompatibleCommand;
-import com.dsh105.dshutils.config.YAMLConfig;
-import com.dsh105.dshutils.logger.ConsoleLogger;
-import com.dsh105.dshutils.logger.Logger;
+import com.samistine.echopet.libraries.dshutils.DSHPlugin;
+import com.samistine.echopet.libraries.dshutils.Metrics;
+import com.samistine.echopet.libraries.dshutils.command.VersionIncompatibleCommand;
+import com.samistine.echopet.libraries.dshutils.config.YAMLConfig;
+import com.samistine.echopet.libraries.dshutils.logger.ConsoleLogger;
+import com.samistine.echopet.libraries.dshutils.logger.Logger;
 import com.samistine.echopet.api.PetManager;
 import com.samistine.echopet.api.SqlPetManager;
 import com.samistine.echopet.commands.CommandComplete;

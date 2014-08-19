@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.nms.v1_7_R4.entity;
 
-import com.dsh105.dshutils.util.GeometryUtil;
+import com.samistine.echopet.libraries.dshutils.util.GeometryUtil;
 import com.samistine.echopet.compat.api.entity.IEntityPacketPet;
 import com.samistine.echopet.compat.api.entity.IPet;
 import com.samistine.echopet.compat.api.plugin.EchoPet;

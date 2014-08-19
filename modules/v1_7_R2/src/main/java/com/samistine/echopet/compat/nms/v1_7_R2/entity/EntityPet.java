@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.nms.v1_7_R2.entity;
 
-import com.dsh105.dshutils.logger.Logger;
+import com.samistine.echopet.libraries.dshutils.logger.Logger;
 import com.samistine.echopet.compat.api.ai.PetGoalSelector;
 import com.samistine.echopet.compat.api.entity.*;
 import com.samistine.echopet.compat.api.event.PetAttackEvent;

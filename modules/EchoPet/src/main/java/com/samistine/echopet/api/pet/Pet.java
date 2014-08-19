@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.api.pet;
 
-import com.dsh105.dshutils.util.StringUtil;
+import com.samistine.echopet.libraries.dshutils.util.StringUtil;
 import com.samistine.echopet.compat.api.entity.*;
 import com.samistine.echopet.compat.api.event.PetTeleportEvent;
 import com.samistine.echopet.compat.api.plugin.EchoPet;

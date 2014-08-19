@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.api.plugin;
 
-import com.dsh105.dshutils.config.YAMLConfig;
+import com.samistine.echopet.libraries.dshutils.config.YAMLConfig;
 import com.samistine.echopet.compat.api.config.ConfigOptions;
 import com.samistine.echopet.compat.api.plugin.hook.IVanishProvider;
 import com.samistine.echopet.compat.api.plugin.hook.IWorldGuardProvider;
