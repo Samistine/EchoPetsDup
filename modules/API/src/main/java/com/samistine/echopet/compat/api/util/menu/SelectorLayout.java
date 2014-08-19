@@ -17,7 +17,7 @@
 
 package com.samistine.echopet.compat.api.util.menu;
 
-import ccom.samistine.echopet.libraries.dshutils.config.YAMLConfig;
+import com.samistine.echopet.libraries.dshutils.config.YAMLConfig;
 import com.samistine.echopet.libraries.dshutils.util.EnumUtil;
 import com.samistine.echopet.compat.api.config.ConfigOptions;
 import com.samistine.echopet.compat.api.config.PetItem;
