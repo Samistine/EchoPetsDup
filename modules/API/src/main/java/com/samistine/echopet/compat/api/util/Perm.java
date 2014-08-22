@@ -24,42 +24,42 @@ import org.bukkit.entity.Player;
 
 public enum Perm {
 
-    ADMIN("echopet.petadmin"),
+    ADMIN("echopet2.petadmin"),
     ADMIN_CALL("echopet.petadmin.call"),
-    ADMIN_DEFAULT_REMOVE("echopet.petadmin.default.remove"),
-    ADMIN_DEFAULT_SET_CURRENT("echopet.petadmin.default.set.current"),
-    ADMIN_DEFAULT_SET_PETTYPE("echopet.petadmin!default.set.type"),
-    ADMIN_HAT("echopet.petadmin!hat"),
-    ADMIN_RIDE("echopet.petadmin!ride"),
-    ADMIN_HIDE("echopet.petadmin.hide"),
-    ADMIN_INFO("echopet.petadmin.info"),
-    ADMIN_MENU("echopet.petadmin.menu"),
-    ADMIN_NAME("echopet.petadmin.name"),
-    ADMIN_PETTYPE("echopet.petadmin!type"),
-    ADMIN_RELOAD("echopet.petadmin.reload"),
-    ADMIN_REMOVE("echopet.petadmin.remove"),
-    ADMIN_SHOW("echopet.petadmin.show"),
-    ADMIN_SELECT("echopet.petadmin.select"),
-    ADMIN_SELECTOR("echopet.petadmin.selector"),
+    ADMIN_DEFAULT_REMOVE("echopet2.petadmin.default.remove"),
+    ADMIN_DEFAULT_SET_CURRENT("echopet2.petadmin.default.set.current"),
+    ADMIN_DEFAULT_SET_PETTYPE("echopet2.petadmin!default.set.type"),
+    ADMIN_HAT("echopet2.petadmin!hat"),
+    ADMIN_RIDE("echopet2.petadmin!ride"),
+    ADMIN_HIDE("echopet2.petadmin.hide"),
+    ADMIN_INFO("echopet2.petadmin.info"),
+    ADMIN_MENU("echopet2.petadmin.menu"),
+    ADMIN_NAME("echopet2.petadmin.name"),
+    ADMIN_PETTYPE("echopet2.petadmin!type"),
+    ADMIN_RELOAD("echopet2.petadmin.reload"),
+    ADMIN_REMOVE("echopet2.petadmin.remove"),
+    ADMIN_SHOW("echopet2.petadmin.show"),
+    ADMIN_SELECT("echopet2.petadmin.select"),
+    ADMIN_SELECTOR("echopet2.petadmin.selector"),
 
-    BASE("echopet.pet"),
-    LIST("echopet.pet.list"),
-    BASE_CALL("echopet.pet.call"),
-    BASE_DEFAULT_REMOVE("echopet.pet.default.remove"),
-    BASE_DEFAULT_SET_CURRENT("echopet.pet.default.set.current"),
-    BASE_DEFAULT_SET_PETTYPE("echopet.pet!default.set.type"),
-    BASE_HAT("echopet.pet!hat"),
-    BASE_HIDE("echopet.pet.hide"),
-    BASE_RIDE("echopet.pet!ride"),
-    BASE_INFO("echopet.pet.info"),
-    BASE_MENU("echopet.pet.menu"),
-    BASE_NAME("echopet.pet.name"),
-    BASE_PETTYPE("echopet.pet!type"),
-    BASE_REMOVE("echopet.pet.remove"),
-    BASE_SHOW("echopet.pet.show"),
-    BASE_SELECT("echopet.pet.select"),
-    BASE_SELECTOR("echopet.pet.selector"),
-    BASE_TOGGLE("echopet.pet.toggle");
+    BASE("echopet2.pet"),
+    LIST("echopet2.pet.list"),
+    BASE_CALL("echopet2.pet.call"),
+    BASE_DEFAULT_REMOVE("echopet2.pet.default.remove"),
+    BASE_DEFAULT_SET_CURRENT("echopet2.pet.default.set.current"),
+    BASE_DEFAULT_SET_PETTYPE("echopet2.pet!default.set.type"),
+    BASE_HAT("echopet2.pet!hat"),
+    BASE_HIDE("echopet2.pet.hide"),
+    BASE_RIDE("echopet2.pet!ride"),
+    BASE_INFO("echopet2.pet.info"),
+    BASE_MENU("echopet2.pet.menu"),
+    BASE_NAME("echopet2.pet.name"),
+    BASE_PETTYPE("echopet2.pet!type"),
+    BASE_REMOVE("echopet2.pet.remove"),
+    BASE_SHOW("echopet2.pet.show"),
+    BASE_SELECT("echopet2.pet.select"),
+    BASE_SELECTOR("echopet2.pet.selector"),
+    BASE_TOGGLE("echopet2.pet.toggle");
 
     String perm;
 
@@ -134,7 +134,7 @@ public enum Perm {
     }
 
     private static boolean hasTypePerm(Player player, boolean sendMessage, Perm base, PetType petType) {
-        String perm = "echopet.pet." + base.perm.split("!")[1] + "." + petType.toString().toLowerCase();
+        String perm = "echopet2.pet." + base.perm.split("!")[1] + "." + petType.toString().toLowerCase();
         if (player.hasPermission(perm)) {
             return true;
         }
@@ -150,7 +150,7 @@ public enum Perm {
         if (!hasTypePerm) {
             return false;
         }
-        String dataPerm = "echopet.pet.type." + petType.toString().toLowerCase() + "." + petData.getConfigOptionString().toLowerCase();
+        String dataPerm = "echopet2.pet.type." + petType.toString().toLowerCase() + "." + petData.getConfigOptionString().toLowerCase();
         if (player.hasPermission(dataPerm)) {
             return true;
         }

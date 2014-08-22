@@ -89,8 +89,8 @@ public class EchoPetPlugin extends DSHPlugin implements IEchoPetPlugin {
 
     public String prefix = "" + ChatColor.DARK_RED + "[" + ChatColor.RED + "EchoPet" + ChatColor.DARK_RED + "] " + ChatColor.RESET;
 
-    public String cmdString = "pet";
-    public String adminCmdString = "petadmin";
+    public String cmdString = "pet2";
+    public String adminCmdString = "petadmin2";
 
     // Update data
     public boolean update = false;
@@ -324,8 +324,8 @@ public class EchoPetPlugin extends DSHPlugin implements IEchoPetPlugin {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-        if (commandLabel.equalsIgnoreCase("ecupdate")) {
-            if (sender.hasPermission("echopet.update")) {
+        if (commandLabel.equalsIgnoreCase("ecupdate2")) {
+            if (sender.hasPermission("echopet2.update")) {
                 if (updateChecked) {
                     @SuppressWarnings("unused")
                     Updater updater = new Updater(this, 53655, this.getFile(), Updater.UpdateType.NO_VERSION_CHECK, true);
@@ -335,11 +335,11 @@ public class EchoPetPlugin extends DSHPlugin implements IEchoPetPlugin {
                     return true;
                 }
             } else {
-                Lang.sendTo(sender, Lang.NO_PERMISSION.toString().replace("%perm%", "echopet.update"));
+                Lang.sendTo(sender, Lang.NO_PERMISSION.toString().replace("%perm%", "echopet2.update"));
                 return true;
             }
-        } else if (commandLabel.equalsIgnoreCase("echopet")) {
-            if (sender.hasPermission("echopet.petadmin")) {
+        } else if (commandLabel.equalsIgnoreCase("echopet2")) {
+            if (sender.hasPermission("echopet2.petadmin")) {
                 PluginDescriptionFile pdFile = this.getDescription();
                 sender.sendMessage(ChatColor.RED + "-------- EchoPet --------");
                 sender.sendMessage(ChatColor.GOLD + "Author: " + ChatColor.YELLOW + "DSH105");
@@ -350,7 +350,7 @@ public class EchoPetPlugin extends DSHPlugin implements IEchoPetPlugin {
                 sender.sendMessage(ChatColor.GOLD + "Main: " + this.OPTIONS.getCommandString());
                 sender.sendMessage(ChatColor.GOLD + "Admin: " + this.OPTIONS.getCommandString() + "admin");
             } else {
-                Lang.sendTo(sender, Lang.NO_PERMISSION.toString().replace("%perm%", "echopet.petadmin"));
+                Lang.sendTo(sender, Lang.NO_PERMISSION.toString().replace("%perm%", "echopet2.petadmin"));
                 return true;
             }
         }

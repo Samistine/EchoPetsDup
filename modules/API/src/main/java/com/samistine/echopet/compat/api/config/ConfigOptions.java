@@ -94,10 +94,10 @@ public class ConfigOptions extends Options {
 
     @Override
     public void setDefaults() {
-        set("commandString", "pet");
+        set("commandString", "pet2");
 
         set("autoUpdate", false, "If set to true, EchoPet will automatically download and install", "new updates.");
-        set("checkForUpdates", true, "If -autoUpdate- is set to false, EchoPet will notify certain", "players of new updates if they are available (if set to true).");
+        set("checkForUpdates", false, "If -autoUpdate- is set to false, EchoPet will notify certain", "players of new updates if they are available (if set to true).");
 
         set("sql.overrideFile", true, "If true, Pets saved to a MySQL Database will override", "those saved to a file (Default and AutoSave Pets)");
         set("sql.use", false);
@@ -140,17 +140,17 @@ public class ConfigOptions extends Options {
         set("petSelector.showDisabledPets", true);
         set("petSelector.giveOnJoin.enable", false);
         set("petSelector.giveOnJoin.usePerm", false);
-        set("petSelector.giveOnJoin.perm", "echopet.selector.join");
+        set("petSelector.giveOnJoin.perm", "echopet2.selector.join");
         set("petSelector.giveOnJoin.slot", 9);
         set("petSelector.clearInvOnJoin", false);
-        set("petSelector.item.name", "&aPets");
+        set("petSelector.item.name", "&aPets2");
         set("petSelector.item.lore", "&7Right click to open");
         set("petSelector.item.materialId", Material.BONE.getId());
         set("petSelector.item.materialData", 0);
 
         boolean loadDefault = this.config.get("petSelector.menu.slots") == null;
         set("petSelector.menu.slots", 45);
-        set("petSelector.menu.title", "Pets");
+        set("petSelector.menu.title", "Pets2, Configured By Samistine");
         if (loadDefault) {
             for (SelectorIcon icon : SelectorLayout.getDefaultLayout()) {
                 int friendlySlot = icon.getSlot() + 1;

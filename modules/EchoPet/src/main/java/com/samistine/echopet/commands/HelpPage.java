@@ -28,90 +28,90 @@ public enum HelpPage {
             ChatColor.YELLOW + "    - Changes your current pet.",
             ChatColor.YELLOW + "    - Each data value is separated by a comma.",
             ChatColor.YELLOW + "    - Pet names can be entered using a semi-colon.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.type.<type>",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.type.<type>",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " <type>:[data],[data];[name <rider>:[data],[data];[name]",
             ChatColor.YELLOW + "    - Spawns a pet by your side with the specified rider.",
             ChatColor.YELLOW + "    - Each data value is separated by a comma.",
             ChatColor.YELLOW + "    - Pet names can be entered using a semi-colon.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.type.<type> and echopet.pet.type.<rider>",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.type.<type> and echopet2.pet.type.<rider>",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " name <name>",
             ChatColor.YELLOW + "    - Set the name tag of your pet.",
             ChatColor.YELLOW + "    - Names can be more than one word, but no longer than 64 characters.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.name",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.name",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " remove",
             ChatColor.YELLOW + "    - Remove your current pet.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.remove"),
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.remove"),
 
     RIDER(2, ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " rider <type>:[data],[data];[name]",
             ChatColor.YELLOW + "    - Changes the rider type of your current pet.",
             ChatColor.YELLOW + "    - Each data value is separated by a comma.",
             ChatColor.YELLOW + "    - Pet names can be entered using a semi-colon.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.type.<type>",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.type.<type>",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " name rider <name>",
             ChatColor.YELLOW + "    - Set the name tag of your pet's rider.",
             ChatColor.YELLOW + "    - Names can be more than one word, but no longer than 64 characters.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.name",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.name",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " riderremove",
             ChatColor.YELLOW + "    - Remove your pet's current rider.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.remove"),
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.remove"),
 
     DEFAULT(3, ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " list",
             ChatColor.YELLOW + "    - Lists available pet types.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.list",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.list",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " info",
             ChatColor.YELLOW + "    - Provides info on your current pet.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.info",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.info",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " default set <type>:[data],[data] [rider]:[data],[data]",
             ChatColor.YELLOW + "    - Set the default pet for when you log in.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.default.set.type.<type> and echopet.pet.default.set.type.<rider>",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.default.set.type.<type> and echopet2.pet.default.set.type.<rider>",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " default set current",
             ChatColor.YELLOW + "    - Set the default pet to your current pet.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.default.set.current",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.default.set.current",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " default remove",
             ChatColor.YELLOW + "    - Remove your default pet.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.default.remove"),
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.default.remove"),
 
     SKILLS(4, ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " ride",
             ChatColor.YELLOW + "    - Ride your pet.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.ride",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.ride",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " hat",
             ChatColor.YELLOW + "    - Have your pet ride on your head.",
             ChatColor.YELLOW + "    - Appears higher to the owner to prevent sight obstruction.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.hat",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.hat",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " call",
             ChatColor.YELLOW + "    - Call your Pet to your side.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.call"),
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.call"),
 
     OTHER(5, ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " menu",
             ChatColor.YELLOW + "    - Open the Data Menu GUI for your Pet",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.menu",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.menu",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " show",
             ChatColor.YELLOW + "    - Show your hidden Pet.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.show",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.show",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " hide",
             ChatColor.YELLOW + "    - Hide your currently active Pet.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.hide"),
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.hide"),
 
     SELECTOR(6, ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " select",
             ChatColor.YELLOW + "    - Open the Pet Selector GUI.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.select",
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.select",
 
             ChatColor.GOLD + "/" + EchoPet.getPlugin().getCommandString() + " selector",
             ChatColor.YELLOW + "    - Give yourself the Pet Selector.",
-            ChatColor.DARK_RED + "    - Permission: echopet.pet.selector");
+            ChatColor.DARK_RED + "    - Permission: echopet2.pet.selector");
 
     private int id;
     private String[] lines;
